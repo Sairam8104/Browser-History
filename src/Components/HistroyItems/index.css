@@ -1,0 +1,59 @@
+.main-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .single-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.domain-container {
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .domain-container {
+    margin-left: 20px;
+  }
+  .domain-name {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+  }
+}
+
+.icon-logo {
+  height: 24px;
+  width: 24px;
+  margin-right: 20px;
+}
+
+.domainUrl {
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .domainUrl {
+    margin-left: 20px;
+  }
+}
+
+.title {
+  margin: 0px;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+}
